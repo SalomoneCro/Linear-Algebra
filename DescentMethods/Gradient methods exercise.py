@@ -1,7 +1,7 @@
 import numpy as np
-from Ejercicio_10 import sol_gradcon
-from Ejercicio_9 import sol_Richardson
-from Ejercicio_8 import sol_gradopt
+from ConjugateGradientMethod import sol_gradcon
+from RichardsonMethod import sol_Richardson
+from OptimumGradientMethod import sol_gradopt
 
 #a
 A = np.array([[9,-2,0],
